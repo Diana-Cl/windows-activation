@@ -7,7 +7,7 @@
 > 
 
 ## روش اول (پیشنهادی)
-**فعال‌سازی سریع ویندوز با استفاده از PowerShell**. 
+**فعال‌سازی سریع ویندوز با استفاده از PowerShell** 
 
 > [!TIP]
 > روش‌های زیادی برای اجرای PowerShell در ویندوز ۱۰ و ۱۱ وجود دارد. [^1].  
@@ -17,41 +17,62 @@
 **مرحله ۱.** کافی است بر روی آیکون استارت یا کادر جستجو کلیک کنید و "PowerShell" را داخل کادر تایپ کنید.  
 > راه آسان دیگر: [^2].   
 
-![1000034946](https://github.com/user-attachments/assets/5a10538a-c8c2-4934-868b-fd8e910f1f9e)  
+<p align="right">
+  <br><img src="https://github.com/user-attachments/assets/5a10538a-c8c2-4934-868b-fd8e910f1f9e" width="540px">
+</p> 
 
+---  
+<br><br>
 **مرحله ۲.** سپس، باید روی `Run as Administrator` کلیک کنید تا پاورشل با **مجوزهای مدیر** اجرا شود.  
 
-![1000034947](https://github.com/user-attachments/assets/1f25dd2a-16db-4053-a45c-aac6f8a9e470)  
+<p align="right">
+  <br><img src="https://github.com/user-attachments/assets/1f25dd2a-16db-4053-a45c-aac6f8a9e470" width="540px">
+</p>  
 
+---  
+<br><br>
 **مرحله ۳.** اکنون، پس از یک مکث کوتاه برای لود شدن پاورشل، لطفاً لاین زیر را `کپی` کنید:
 
 ```CSS
 irm https://get.activated.win | iex
 ```
 
+---  
+<br><br>
 **مرحله ۴.** حالا آن را (با راست کلیک) درون پاورشل جای‌گذاری کنید و به منظور تایید کلید اینتر را بزنید. در پنجره‌ی تازه باز شده، چندین گزینه موجود است که باید گزینه `1` را تایپ و اینتر زده و چند ثانیه صبر کنید تا پروسه فعالسازی کامل شود.  
 
-![1000034926](https://github.com/user-attachments/assets/0c3689a1-1595-40b3-97e2-041dac423237)  
+<p align="right">
+  <br><img src="https://github.com/user-attachments/assets/0c3689a1-1595-40b3-97e2-041dac423237" width="540px">
+</p>  
 
-**تبریک میگم۹**، ویندوز شما فعال شد. اکنون می‌توانید با فشردن کلید اینتر پنجره CMD را ببندید و همچنین پاورشل را بسته و وضعیت فعال بودن ویندوز را از منوی تنظیمات بررسی کنید [^3].
+---  
+<br><br>
+**تبریک میگم**، ویندوز شما فعال شد. اکنون می‌توانید با فشردن کلید اینتر پنجره CMD را ببندید و همچنین پاورشل را بسته و وضعیت فعال بودن ویندوز را از منوی تنظیمات بررسی کنید [^3].
 
----
+<br><br>
+<br><br>
+<br><br>
+<br><br>
+
 
 ## روش دوم
 
-**فعال‌سازی فوری ویندوز با استفاده از CMD (خط فرمان)**.
+**فعال‌سازی فوری ویندوز با استفاده از CMD (خط فرمان)**
 
 > [!NOTE]
-> اتصال صحیح سیستم به **اینترنت** را بررسی کنید.
+> اتصال صحیح سیستم به **اینترنت** را بررسی کنید
 > 
-> فعال کردن VPN **ضروری نیست**.
+> فعال کردن VPN **ضروری نیست**
 
 **مرحله ۱.** کافی است بر روی آیکون استارت یا کادر جستجو کلیک کنید و "CMD" را داخل کادر تایپ کنید. و پس از مشاهده گزینه `Command Prompet` آن را با حالت **Run as administrator** اجرا کنید.
 > راه آسان دیگر: [^2].  
 
-<p align="center">
-  <br><img src="https://github.com/NiREvil/workers-cloudflare/blob/main/Other/pics/win1.png" width="540px">
+<p align="right">
+  <br><img src="https://github.com/NiREvil/workers-cloudflare/blob/main/Other/pics/win1.png" width="480px">
 </p>  
+
+---  
+<br><br>
 
 ### لیست کلیدهای لایسنس
 
@@ -70,8 +91,9 @@ irm https://get.activated.win | iex
 
 ![rainbow](https://github.com/NiREvil/vless/assets/126243832/1aca7f5d-6495-44b7-aced-072bae52f256)  
 
+<br><br>
 
-**مرحله ۲.** نصب کلید مشتری KMS.
+**مرحله ۲.** نصب کلید مشتری KMS
 
 از دستور زیر استفاده کنید:  
 
@@ -79,38 +101,44 @@ irm https://get.activated.win | iex
 slmgr /ipk yourlicensekey
 ```
 
+---  
+<br><br>
+
 > [!NOTE] 
 > لطفاً یکی از **کلیدهای لایسنس** را از لیست انتخاب کرده که با **نسخه ویندوز شما مطابقت دارد** و آن را با عبارت `yourlicencekey` در دستور فوق جایگزین کنید.
 
 > [!TIP] 
-> چگونه نسخه ویندوز خود را بررسی کنم [^3].  
+> چگونه نسخه ویندوز خود را بررسی کنم [^3]  
 
-<p align="center">
-  <br><img src="https://github.com/NiREvil/workers-cloudflare/blob/main/Other/pics/win2.png" width="540px">
+<p align="right">
+  <br><img src="https://github.com/NiREvil/workers-cloudflare/blob/main/Other/pics/win2.png" width="480px">
 </p>  
 
-<p align="center">
-  <br><img src="https://github.com/NiREvil/workers-cloudflare/blob/main/Other/pics/win3.png" width="480px">
+<p align="right">
+  <br><img src="https://github.com/NiREvil/workers-cloudflare/blob/main/Other/pics/win3.png" width="340px">
 </p>  
 
-**مرحله ۳.** تنظیم آدرس ماشین KMS.
+---  
+<br><br>
+**مرحله ۳.** تنظیم آدرس ماشین KMS  
 
 از این دستور استفاده کنید:  
 ```CSS
 slmgr /skms kms8.msguides.com
 ```
 
-برای اتصال به سرور KMS من.  
+برای اتصال به سرور KMS من   
 
-<p align="center">
-  <br><img src="https://github.com/NiREvil/workers-cloudflare/blob/main/Other/pics/win4.png" width="540px">
+<p align="right">
+  <br><img src="https://github.com/NiREvil/workers-cloudflare/blob/main/Other/pics/win4.png" width="480px">
 </p>  
 
-<p align="center">
-  <br><img src="https://github.com/NiREvil/workers-cloudflare/blob/main/Other/pics/win5.png" width="480px">
+<p align="right">
+  <br><img src="https://github.com/NiREvil/workers-cloudflare/blob/main/Other/pics/win5.png" width="340px">
 </p>  
 
----
+---  
+<br><br>
 
 **مرحله ۴.** ویندوز خود را فعال کنید.
 آخرین مرحله این است که ویندوز خود را با استفاده از دستور زیر فعال کنید:
@@ -119,19 +147,20 @@ slmgr /skms kms8.msguides.com
 slmgr /ato
 ```  
 
-<p align="center">
-  <br><img src="https://github.com/NiREvil/workers-cloudflare/blob/main/Other/pics/win6.png" width="540px">
+<p align="right">
+  <br><img src="https://github.com/NiREvil/workers-cloudflare/blob/main/Other/pics/win6.png" width="480px">
 </p>  
 
-<p align="center">
-  <br><img src="https://github.com/NiREvil/workers-cloudflare/blob/main/Other/pics/win7.png" width="360x">
+<p align="right">
+  <br><img src="https://github.com/NiREvil/workers-cloudflare/blob/main/Other/pics/win7.png" width="240x">
 </p>  
 
----
+---  
+<br><br>
 
 **مرحله ۵.** اکنون وضعیت فعال‌ بودن ویندوز را دوباره بررسی کنید [^4].
 
-<p align="center">
+<p align="right">
   <br><img src="https://github.com/NiREvil/workers-cloudflare/blob/main/Other/pics/win8.png" width="540px">
 </p>  
 
@@ -140,7 +169,8 @@ slmgr /ato
 اگر اعلانی مشابه تصویر فوق مشاهده کردید ویندوز شما با موفقیت فعال شد.
 در صورت دریافت هرگونه خطا ابتدا اتصال صحیح اینترنت را بررسی کرده سپس مراحل را تکرار کنید.
 
----
+---  
+<br><br>
 
 **کنجکاو باشید 🤍🪐**  
  
@@ -150,7 +180,9 @@ slmgr /ato
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://user-images.githubusercontent.com/25423296/163456776-7f95b81a-f1ed-45f7-b7ab-8fa810d529fa.png">  <source media="(prefers-color-scheme: light)" srcset="https://user-images.githubusercontent.com/25423296/163456779-a8556205-d0a5-45e2-ac17-42d089e3c3f8.png">  <img alt="Shows an illustrated sun in light mode and a moon with stars in dark mode." src="https://user-images.githubusercontent.com/25423296/163456779-a8556205-d0a5-45e2-ac17-42d089e3c3f8.png"></picture>
   
----
+---  
+<br><br>
+![rainbow](https://github.com/NiREvil/vless/assets/126243832/1aca7f5d-6495-44b7-aced-072bae52f256)  
 
 [^1]: [10 روش برای اجرای پاورشل در ویندوز](https://www.google.com/amp/s/www.minitool.com/news/open-windows-11-powershell.html%3famp)  
 
