@@ -7,50 +7,63 @@
 > 
 
 
-## Method 1 (recommend)
+## Method 1 (recommend)  
+**Instant Windows activation using (PowerShell)**
+
 
 > [!TIP]
-> We have many ways to run powershell in windowss 10 & 11. [^1].  
+> We have many ways to run powershell in windowss 10 & 11. [^1]  
 
 One of the fastest ways to open PowerShell in Windows is a Start menu search. You may follow the steps below:
 
 **Step 1.** All you need to do is hit the start or search icon and type the "PowerShell" in the search box.  
-> Another easy way: [^2].   
+> Another easy way: [^2]   
 
 <p align="left">
   <br><img src="https://github.com/user-attachments/assets/5a10538a-c8c2-4934-868b-fd8e910f1f9e" width="540px">
 </p>  
 
+---  
+<br><br>
 **Step 2.** Next, you must click on the `Run as Administrator` to start PowerShell, in this case we need to run with **administrative privileges**.  
 
 <p align="left">
   <br><img src="https://github.com/user-attachments/assets/1f25dd2a-16db-4053-a45c-aac6f8a9e470" width="540px">
 </p>  
 
+---  
+<br><br>
 **Step 3.** Now, after a brief pause to allow for execution, please `copy` this line: 
 
 ```CSS
 irm https://get.activated.win | iex
 ```
 
+---  
+<br><br>
 **Step 4.** Now paste it (with right-click) and hit the enter key. In the newly opened window, there are several options available, from which we must select option `1` and wait a few seconds to complete.  
 
 <p align="left">
   <br><img src="https://github.com/user-attachments/assets/0c3689a1-1595-40b3-97e2-041dac423237" width="540px">
 </p>  
 
-**Congratulations**, your Windows has been activated. now you can hit the enter key to exit the CMD and close PowerShell and check windows Activation menu [^3].
+ 
+<br><br>
+**Congratulations**, your Windows has been activated. now you can hit the enter key to exit the CMD and close PowerShell and check windows Activation menu [^3]
 
----
+<br><br>
+<br><br>
+<br><br>
+<br><br>
 
 ## Method 2
 
-**Instant Windows 10/11 Activation** using CMD (Command Prompt).
+**Instant Windows activation using CMD (Command Prompt)**
 
 > [!NOTE]
 > Remember **connect** to the **Internet**
 > 
-> VPN is **not necessary**.
+> VPN is **not necessary**
 
 **Step 1.** First, hit the start or search icon and type the "CMD" in the search box. and after seeing the command prompt option, run it as an **administrator**
 > another easy way: [^2].  
@@ -59,6 +72,8 @@ irm https://get.activated.win | iex
   <br><img src="https://github.com/NiREvil/workers-cloudflare/blob/main/Other/pics/win1.png" width="480px">
 </p>  
 
+---  
+<br><br>
 ### The following is the list of LICENSE KEYS  
 
 |            **Key**            |   **Version**  |
@@ -76,11 +91,11 @@ irm https://get.activated.win | iex
 
 ![rainbow](https://github.com/NiREvil/vless/assets/126243832/1aca7f5d-6495-44b7-aced-072bae52f256)  
 
+<br><br>
 
 **Step 2.** Install KMS client key.  
 
 Use this command:  
-
 ```CSS
 slmgr /ipk yourlicensekey
 ```
@@ -99,6 +114,8 @@ slmgr /ipk yourlicensekey
   <br><img src="https://github.com/NiREvil/workers-cloudflare/blob/main/Other/pics/win3.png" width="340px">
 </p>  
 
+---  
+<br><br>
 **Step 3.** Set KMS machine address.  
 
 Use the command:  
@@ -116,7 +133,8 @@ to connect to my KMS server.
   <br><img src="https://github.com/NiREvil/workers-cloudflare/blob/main/Other/pics/win5.png" width="340px">
 </p>  
 
----
+---  
+<br><br>
 
 **Step 4.** Activate your Windows. 
 The last step is to activate your Windows using the command:  
@@ -133,7 +151,8 @@ slmgr /ato
   <br><img src="https://github.com/NiREvil/workers-cloudflare/blob/main/Other/pics/win7.png" width="240px">
 </p>  
 
----
+---  
+<br><br>
 
 **Step 5.** And Now check the activation status again [^4].
 
@@ -145,7 +164,9 @@ slmgr /ato
 **Done ✅**  
 your Windows is activated successfully.
 
----
+
+---  
+<br><br>
 
 **Be curious 🤍🪐**  
  
@@ -155,7 +176,9 @@ your Windows is activated successfully.
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://user-images.githubusercontent.com/25423296/163456776-7f95b81a-f1ed-45f7-b7ab-8fa810d529fa.png">  <source media="(prefers-color-scheme: light)" srcset="https://user-images.githubusercontent.com/25423296/163456779-a8556205-d0a5-45e2-ac17-42d089e3c3f8.png">  <img alt="Shows an illustrated sun in light mode and a moon with stars in dark mode." src="https://user-images.githubusercontent.com/25423296/163456779-a8556205-d0a5-45e2-ac17-42d089e3c3f8.png"></picture>
   
----
+![rainbow](https://github.com/NiREvil/vless/assets/126243832/1aca7f5d-6495-44b7-aced-072bae52f256)  
+---  
+<br><br>
 
 [^1]: [10 Ways to run PowerShell in windows](https://www.google.com/amp/s/www.minitool.com/news/open-windows-11-powershell.html%3famp)  
 
